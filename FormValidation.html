@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/smoothness/jquery-ui.css"/>
+<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<title>HTML5, CSS3 and JavaScript demo</title>
+</head>
+  <body>
+  <div id="backBone">
+    <h2>Form Validation</h2>
+    <form action="http://liveweave.com/1EK5eq">
+      <table>
+        <tr class="row">
+          <td class="columnOne">
+            UserName:
+          </td>
+          <td class="columnTwo">
+            <input type='text'class="form" name='username'placeholder="Enter any valid name" id="user" onBlur="return validateName()">
+          </td>
+        </tr>
+        <tr class="row">
+          <td class="columnOne">
+            Email ID:
+          </td>
+          <td class="columnTwo">
+            <input type="email"class="form" name="email" id="emailid" placeholder="example@email.com" onBlur="return validateEmail()">
+          </td>
+        </tr>
+        <tr class="row">
+          <td class="columnOne">
+            Password:
+          </td>
+          <td class="columnTwo">
+            <input type="password" class="form" name="password" id="pass" onBlur="return validatePass()">
+          </td>
+        </tr>
+        <tr class="row">
+          <td class="columnOne">
+            Confirm Password:
+          </td>
+          <td class="columnTwo">
+            <input type="password"class="form" name="password" id="com" onBlur="return validateCom()">
+          </td>
+        </tr>
+        <tr class="row">
+          <td class="columnOne">
+            Date of Birth:
+          </td>
+          <td class="columnTwo">
+            <input type="text" id="dob" />
+          </td>
+        </tr>
+      </table>
+      <input type="submit" class="different" id="submit" value="SUBMIT"/>
+    </form>
+  </div>
+</body>
+</html>

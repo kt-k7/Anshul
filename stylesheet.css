@@ -1,0 +1,64 @@
+body {
+  padding-top: 5%;
+  background-image: url(image.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 150%;
+}
+#backBone {
+  border:  0.0em solid black;
+  width: 35em;
+  height:  80%;
+  margin:  auto;
+  border-radius:  0.5em;
+  text-align: center;
+  float: none;
+  padding-top: 0.75em;
+  background-color: #F0F8FF;
+  box-shadow: 1px 1px 5px #000000;
+}
+h2 {
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  background-color: #F5F5F5;
+  box-shadow: 1px 1px 5px #000000;
+}
+.columnOne {
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+  color: #FF6347
+}
+.columnTwo {
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+  border-style: hidden ;
+  padding-left: 1.1em;
+}
+input {
+  border-style: solid;
+  border-radius: 0.6em;
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+  font-weight: lighter;
+  font-feature-settings: normal;
+  height: 3.5em;
+  width: 20em;
+  text-align: center;
+  background-color: #F0FFFF;
+}
+table {
+  margin: auto;
+  padding: -10%;
+}
+.different {
+  background-color: #F0FFFF;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: large;
+  width: 7em;
+  height: 3em;
+}
+.active {
+  background-color: #9ACD32;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: large;
+  width: 7em;
+  height: 3em;
+}
